@@ -90,15 +90,15 @@ cd mini-x-social-app
 
 ```text
 mini-x-social-app/
+├── screenshots/
+│   ├── login.jpeg
+│   ├── post.jpeg
+│   └── weather.jpeg
 ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── ...
 ├── server/
-│   ├── ...
 ├── public/
+├── mockData/
 ├── package.json
-├── vite.config.js
 └── README.md
 ```
 
