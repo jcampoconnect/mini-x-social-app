@@ -1,12 +1,76 @@
-# React + Vite
+# Mini Social App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack social media web application inspired by modern social platforms. 
+The application allows users to create accounts, manage profiles, create posts,
+interact with other users, and view weather information through an external API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Authentication
+- User registration and login
+- Email validation
+- Password requirements and validation
+- User logout
+- Session/authentication handling
 
-## Expanding the ESLint configuration
+### Social Features
+- Create posts
+- View posts from other users
+- Delete your own posts
+- Like posts
+- Follow and unfollow users
+- View user profiles
+- Search for recent posts by username
+- Comment functionality
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Weather Integration
+- Displays weather information using an external weather API
+- Integrates third-party API data into the application
+
+### Backend
+- PHP backend
+- MySQL database
+- REST API endpoints
+- Database-driven user and post interactions
+
+## Technologies
+
+### Frontend
+- React
+- JavaScript
+- React Router
+- Vite
+- HTML/CSS
+
+### Backend
+- PHP
+- MySQL
+- REST APIs
+
+### External Services
+- Weather API
+
+## Application Structure
+
+The application is divided into a React frontend and PHP/MySQL backend.
+
+The React frontend handles the user interface and client-side navigation,
+while the PHP backend handles API requests, authentication, database
+operations, and social interactions.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- PHP
+- MySQL
+
+### Frontend
+
+Clone the repository:
+
+```bash
+git clone https://github.com/jcampoconnect/mini-x-social-app.git
+cd mini-x-social-app
