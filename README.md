@@ -78,7 +78,7 @@ cd mini-x-social-app
 ## Screenshots
 
 ### Authentication
-![Login](screenshots/login.png)
+![Login](screenshots/login.jpeg)
 
 ### Social Feed
 ![Social Feed](screenshots/feed.png)
