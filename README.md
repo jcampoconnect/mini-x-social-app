@@ -74,3 +74,36 @@ Clone the repository:
 ```bash
 git clone https://github.com/jcampoconnect/mini-x-social-app.git
 cd mini-x-social-app
+```
+## Screenshots
+
+### Authentication
+![Login](screenshots/login.png)
+
+### Social Feed
+![Social Feed](screenshots/feed.png)
+
+### Weather Integration
+![Weather](screenshots/weather.png)
+
+## Project Structure
+
+```text
+mini-x-social-app/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── ...
+├── server/
+│   ├── ...
+├── public/
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Author
+
+**Julian Campo**
+- GitHub: https://github.com/jcampoconnect
+- LinkedIn: https://www.linkedin.com/in/juliancampo/
