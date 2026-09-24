@@ -81,10 +81,10 @@ cd mini-x-social-app
 ![Login](screenshots/login.jpeg)
 
 ### Social Feed
-![Social Feed](screenshots/feed.png)
+![Social Feed](screenshots/post.jpeg)
 
 ### Weather Integration
-![Weather](screenshots/weather.png)
+![Weather](screenshots/weather.jpeg)
 
 ## Project Structure
 
