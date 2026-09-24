@@ -1,0 +1,366 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  height: auto; 
+  flex-direction: column;
+  overflow-y: auto; 
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  color: #2e3b4e;
+  letter-spacing: 1px;
+}
+h2 {
+  font-size: 1em;
+  margin-bottom: 30px;
+  color: #2e3b4e;
+  letter-spacing: 1px;
+}
+
+/* Navigation Buttons */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #2e3b4e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1c2735;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2em;
+}
+
+form input,
+form select,
+form textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  color: black; /* Added to make text black */
+  transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #2e3b4e;
+  outline: none;
+}
+
+/* Posts */
+.post {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  width: 350px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.post small {
+  color: #777;
+}
+
+.post button {
+  background-color: #3498db;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.post button:hover {
+  background-color: #2980b9;
+}
+
+#searchBar {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 20px;
+  width: 350px;
+  background-color: #f7f7f7;
+  transition: border-color 0.3s ease;
+  margin-bottom: 30px;
+}
+
+#searchBar:focus {
+  border-color: #2e3b4e;
+  outline: none;
+}
+
+/* Clock */
+#clock {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #2e3b4e;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+
+
+/* Centering the login form */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-form {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-form h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #2e3b4e;
+}
+
+.login-form input {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #2e3b4e;
+  outline: none;
+}
+
+.login-form button {
+  background-color: #2e3b4e;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #1c2735;
+}
+
+.login-form a {
+  text-align: center;
+  color: #2e3b4e;
+  text-decoration: none;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}
+
+
+/* REGISTER PART */
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.register-form label {
+  font-weight: 600;
+  color: #2e3b4e;
+}
+
+.register-form input {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  transition: border-color 0.3s ease;
+}
+
+.register-form input:focus {
+  border-color: #2e3b4e;
+  outline: none;
+}
+
+.register-form button {
+  background-color: #2e3b4e;
+  color: white;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #1c2735;
+}
+
+.register-link {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.register-link a {
+  color: #2e3b4e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+
+/* WEATHER */
+.weather-box {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.weather-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.weather-icon {
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.error-text {
+  color: red;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.main-flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+/* Suggested Followers Box */
+.suggested-box {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.suggested-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.follow-btn {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.follow-btn:hover {
+  background-color: #2980b9;
+}
+
+
+

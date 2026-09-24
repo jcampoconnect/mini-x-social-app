@@ -1,0 +1,19 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "julian",
+        "email": "julian@example.com",
+        "password": "1234" 
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "userId": 1,
+        "message": "This is a sample post.",
+        "likes": 0
+      }
+    ]
+  }
+  
